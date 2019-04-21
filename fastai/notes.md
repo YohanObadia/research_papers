@@ -4,7 +4,7 @@
  - Random init and transfer learning
  - SGD, Momentum and Adam
  - Convolutions
- - **Batch-norm**: how is normalization computed in fastai
+ - **Batch-norm**: Normalization per batch with momentum from previous batches.
  - Dropout
  - Data augmentation
  - Weight decay
@@ -19,7 +19,9 @@
 
 # Lesson 4-5:
 To avoid overfitting, multiple techniques can be used:
+ - Batch-norm
  - Dropout
+ - Data augmentation
  - Weight Decay also called L2-Regularization:
  
    ![](https://latex.codecogs.com/gif.latex?L(x,y,\theta)&space;=&space;l(x,y)&space;&plus;&space;\sum\theta_i^2)
