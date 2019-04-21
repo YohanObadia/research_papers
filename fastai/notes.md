@@ -33,4 +33,4 @@ Generator and the Discriminator. The difficulty is the cold start problem when h
 to circumvent it somehow.
 
 To train the Generator you need to use **Spectral Normalization** to avoid both the Generator and the Discriminator to push the 
-weights increasingly high. (
+weights increasingly high. (related to SVD, see course 2 for details).
